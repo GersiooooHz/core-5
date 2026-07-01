@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     display: flex;
     flex-wrap: wrap;
@@ -36,11 +39,11 @@ body {
 }
 
 
-.tarjeta h1 {
+body h1,h2 {
     color: rgb(65, 63, 63);
 }
 
-.tarjeta h3,p {
+body h3,p {
     color: rgb(95, 94, 94);
 }
 
@@ -66,11 +69,14 @@ body {
 }
 
 .tarjeta2 {
+    padding-right: 25px;
+    padding-left: 25px;
     overflow: auto;
     border-radius: 20px;
     width: 600px;
     height: 200px;
     box-shadow: 5px 5px 10px gray;
+    
 }
 
 .izquierda {
@@ -86,16 +92,35 @@ body {
 }
 
 .solicitudes {
-    width: 400px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    width: 450px;
+    height: auto;
     box-shadow: 5px 5px 10px gray;
     border-radius: 20px;
 }
 
 .conexiones {
-    width: 400px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 450px;
     height: 200px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 20px;
 }
 
+.sol {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sol img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid aquamarine;
+
+}
