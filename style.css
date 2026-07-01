@@ -97,17 +97,20 @@ body h3,p {
     padding-right: 25px;
     padding-left: 25px;
     padding-bottom: 10px;
-    width: 450px;
+    width: 480px;
     height: auto;
     box-shadow: 5px 5px 10px gray;
     border-radius: 20px;
 }
 
 .conexiones {
+    display: flex;
+    flex-direction: column;
     padding-right: 25px;
     padding-left: 25px;
-    width: 450px;
-    height: 200px;
+    padding-bottom: 10px;
+    width: 480px;
+    height: auto;
     box-shadow: 5px 5px 10px gray;
     border-radius: 20px;
 }
@@ -123,4 +126,34 @@ body h3,p {
     border-radius: 50%;
     border: 2px solid aquamarine;
 
+}
+
+.conex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.conex img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid rgb(133, 31, 48);
+
+}
+
+.sol button {
+    background-color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    color: green;
+    border: 2px solid green;
+    justify-content: center;
+    margin: 5px;
+    width: 75px;
+    height: 75px;
+}
+
+.sol button:hover {
+    background-color: green;
 }
